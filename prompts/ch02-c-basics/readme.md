@@ -1,4 +1,4 @@
-**Prompts for *Chapter 1 Introduction* with links to responses**
+**Prompts for *Chapter 2 C Language Fundamentals* with links to responses**
 
 - [Please show me how different compilers like GCC, Clang, and MSVC report the same syntax error in a simple C program.](ch02-01.md)
 - [Please explain how a C program is executed step-by-step from source code to running executable, including preprocessing and compilation stages.](ch02-02.md)
