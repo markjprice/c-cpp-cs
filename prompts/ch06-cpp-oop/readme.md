@@ -1,0 +1,15 @@
+**Prompts for *Chapter 6 Object-Oriented Programming in C++* with links to responses**
+
+- [Please show me some common mistakes beginners make with constructors and destructors in C++.](ch06-01.md)
+- [What problems does RAII solve in C++ and how is it used in modern code?](ch06-02.md)
+- [Please show how operator overloading can be abused and how to avoid it.](ch06-03.md)
+- [Please explain the difference between composition and inheritance with real-world C++ examples and when each should be used.](ch06-04.md)
+- [Please explain how vtables work internally in C++ for virtual functions.](ch06-05.md)
+- [Please show me a step-by-step example of how virtual functions enable runtime polymorphism in C++.](ch06-06.md)
+- [How does polymorphism affect performance in C++?](ch06-07.md)
+- [Compare abstract classes in C++ with interfaces in C#.](ch06-08.md)
+- [Why is multiple inheritance controversial in C++? Show real-world examples.](ch06-09.md)
+- [When should I use `friend` functions in C++ and when should I avoid them?](ch06-10.md)
+- [Please explain method chaining in C++ and compare it to fluent APIs in other languages.](ch06-11.md)
+- [Please explain `const` correctness in C++ with practical examples.](ch06-12.md)
+- [Please give me some examples of bad class design in C++ and how to refactor them.](ch06-13.md)
