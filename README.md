@@ -42,15 +42,15 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 - Chapter 5, Modern C++ Essentials [Code/Chapter5](Code/Chapter5)
 - Chapter 6, Object-Oriented Programming in C++ [Code/Chapter6](Code/Chapter6)
 - Chapter 7, Memory Management in Modern C++ [Code/Chapter7](Code/Chapter7)
-- Chapter 8, Building Your First Game with C++ and Unreal Engine [Code/Game1](Code/Game1)
-- Chapter 9, Extending the C++ Game Project
+- Chapter 8, Building Your First Game with C++ and Unreal Engine [Code/CppUnrealGame](Code/CppUnrealGame)
+- Chapter 9, Extending the C++ and Unreal Game Project
 
 **Part 3: C# – Productivity and Managed Memory**
 - Chapter 10, C# Fundamentals and OOP [Code/Chapter10](Code/Chapter10)
 - Chapter 11, Modern C# Features [Code/Chapter11](Code/Chapter11)
 - Chapter 12, Memory Management in C# [Code/Chapter12](Code/Chapter12)
-- Chapter 13, Building Your First Game with C# and Unity [Code/Game2](Code/Game2)
-- Chapter 14, Extending the Unity Game Project
+- Chapter 13, Building Your First Game with C# and Unity [Code/CsharpUnityGame](Code/CsharpUnityGame)
+- Chapter 14, Extending the C# and Unity Game Project
 
 **Appendix**
 - [*Appendix, Answers to the Test Your Knowledge Questions*](docs/B33445_Appendix%20A.pdf)
