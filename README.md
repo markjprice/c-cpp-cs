@@ -30,27 +30,36 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 
 # Chapters and code projects
 
-**Introduction**
-- Chapter 1, Introduction to C, C++, and C# with an AI Sidekick
+## Introduction
+- Chapter 1, Introduction to C, C++, and C#
+- Chapter 2, Learning and Coding with an AI Sidekick
 
-**Part 1: C – Foundations and Manual Memory**
-- Chapter 2, C Programming Fundamentals [Code/Chapter2](Code/Chapter2)
-- Chapter 3, Memory Management in C [Code/Chapter3](Code/Chapter3)
-- Chapter 4, The Limits of C [Code/Chapter4](Code/Chapter4)
+## Part 1: C – Foundations and Manual Memory
+- Chapter 3, C Programming Fundamentals: [Code/Chapter2](Code/Chapter2)
+- Chapter 4, Memory Management in C: [Code/Chapter3](Code/Chapter3)
+- Chapter 5, The Limits of C: [Code/Chapter4](Code/Chapter4)
 
-**Part 2: C++ – Abstraction, Safety, and Power**
-- Chapter 5, Modern C++ Essentials [Code/Chapter5](Code/Chapter5)
-- Chapter 6, Object-Oriented Programming in C++ [Code/Chapter6](Code/Chapter6)
-- Chapter 7, Memory Management in Modern C++ [Code/Chapter7](Code/Chapter7)
-- Chapter 8, Building Your First Game with C++ and Unreal Engine [Code/CppUnrealGame](Code/CppUnrealGame)
-- Chapter 9, Extending the C++ and Unreal Game Project
+## Part 2: C++ – Abstraction, Safety, and Power
+- Chapter 6, Modern C++ Essentials: [Code/Chapter5](Code/Chapter5)
+- Chapter 7, Object-Oriented Programming in C++: [Code/Chapter6](Code/Chapter6)
+- Chapter 8, Memory Management in Modern C++: [Code/Chapter7](Code/Chapter7)
 
-**Part 3: C# – Productivity and Managed Memory**
-- Chapter 10, C# Fundamentals and OOP [Code/Chapter10](Code/Chapter10)
-- Chapter 11, Modern C# Features [Code/Chapter11](Code/Chapter11)
-- Chapter 12, Memory Management in C# [Code/Chapter12](Code/Chapter12)
-- Chapter 13, Building Your First Game with C# and Unity [Code/CsharpUnityGame](Code/CsharpUnityGame)
-- Chapter 14, Extending the C# and Unity Game Project
+## Part 3: Building a Game with C++ and Unreal 
+[Code/CppUnrealGame](Code/CppUnrealGame)
+- Chapter 9, Build a Playable Game Fast
+- Chapter 10, Structure the Game Properly
+- Chapter 11, Polish, UI, and Feel
+
+## Part 4: C# – Productivity and Managed Memory
+- Chapter 12, C# Fundamentals and OOP: [Code/Chapter10](Code/Chapter10)
+- Chapter 13, Modern C# Features: [Code/Chapter11](Code/Chapter11)
+- Chapter 14, Memory Management in C#: [Code/Chapter12](Code/Chapter12)
+
+## Part 5: Building a Game with C# and Unity
+[Code/CsharpUnityGame](Code/CsharpUnityGame)
+- Chapter 15, Build a Playable Game Fast
+- Chapter 16, Structure the Game Properly
+- Chapter 17, Polish, UI, and Feel
 
 **Appendix**
 - [*Appendix, Answers to the Test Your Knowledge Questions*](docs/B33445_Appendix%20A.pdf)
