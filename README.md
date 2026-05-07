@@ -10,6 +10,12 @@ Repository for the Packt Publishing book titled *C, C++, and C# with an AI Sidek
 - [Free PDF/ePub of the book and how to contact the publisher Packt](#free-pdfepub-of-the-book-and-how-to-contact-the-publisher-packt)
 - [Author's books](#authors-books)
 - [Chapters and code projects](#chapters-and-code-projects)
+  - [Introduction](#introduction)
+  - [Part 1: C – Foundations and Manual Memory](#part-1-c--foundations-and-manual-memory)
+  - [Part 2: C++ – Abstraction, Safety, and Power](#part-2-c--abstraction-safety-and-power)
+  - [Part 3: C# – Productivity and Managed Memory](#part-3-c--productivity-and-managed-memory)
+  - [Part 4: Unity - Building a Game with C#](#part-4-unity---building-a-game-with-c)
+  - [Epilogue and Appendix](#epilogue-and-appendix)
 - [Online content](#online-content)
 - [Book Cover](#book-cover)
 
@@ -44,22 +50,18 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 - Chapter 7, Object-Oriented Programming in C++: [Code/Chapter6](Code/Chapter6)
 - Chapter 8, Memory Management in Modern C++: [Code/Chapter7](Code/Chapter7)
 
-## Part 3: Building a Game with C++ and Unreal 
-[Code/CppUnrealGame](Code/CppUnrealGame)
-- Chapter 9, Build a Playable Game Fast
-- Chapter 10, Structure the Game Properly
-- Chapter 11, Polish, UI, and Feel
+## Part 3: C# – Productivity and Managed Memory
+- Chapter 9, C# Fundamentals and OOP: [Code/Chapter10](Code/Chapter10)
+- Chapter 10, Modern C# Features: [Code/Chapter11](Code/Chapter11)
+- Chapter 11, Memory Management in C#: [Code/Chapter12](Code/Chapter12)
 
-## Part 4: C# – Productivity and Managed Memory
-- Chapter 12, C# Fundamentals and OOP: [Code/Chapter10](Code/Chapter10)
-- Chapter 13, Modern C# Features: [Code/Chapter11](Code/Chapter11)
-- Chapter 14, Memory Management in C#: [Code/Chapter12](Code/Chapter12)
-
-## Part 5: Building a Game with C# and Unity
+## Part 4: Unity - Building a Game with C#
 [Code/CsharpUnityGame](Code/CsharpUnityGame)
-- Chapter 15, Build a Playable Game Fast
-- Chapter 16, Structure the Game Properly
-- Chapter 17, Polish, UI, and Feel
+- Chapter 12, Build a Playable Game Fast
+- Chapter 13, Structure the Game Properly
+- Chapter 14, Polish, UI, and Feel
+
+## Epilogue and Appendix
 
 **Appendix**
 - [*Appendix, Answers to the Test Your Knowledge Questions*](docs/B33445_Appendix%20A.pdf)
