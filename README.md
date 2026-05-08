@@ -41,25 +41,26 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 - Chapter 2, Learning and Coding with an AI Sidekick
 
 ## Part 1: C – Foundations and Manual Memory
-- Chapter 3, C Programming Fundamentals: [Code/Chapter2](Code/Chapter2)
-- Chapter 4, Memory Management in C: [Code/Chapter3](Code/Chapter3)
-- Chapter 5, The Limits of C: [Code/Chapter4](Code/Chapter4)
+- Chapter 3, C Fundamentals: [Code/Chapter2](Code/Chapter2)
+- Chapter 4, C Memory Management: [Code/Chapter3](Code/Chapter3)
+- Chapter 5, C Limitations: [Code/Chapter4](Code/Chapter4)
 
 ## Part 2: C++ – Abstraction, Safety, and Power
-- Chapter 6, Modern C++ Essentials: [Code/Chapter5](Code/Chapter5)
-- Chapter 7, Object-Oriented Programming in C++: [Code/Chapter6](Code/Chapter6)
-- Chapter 8, Memory Management in Modern C++: [Code/Chapter7](Code/Chapter7)
+- Chapter 6, C++ Fundamentals: [Code/Chapter5](Code/Chapter5)
+- Chapter 7, C++ Object-Oriented Programming: [Code/Chapter6](Code/Chapter6)
+- Chapter 8, C++ Memory Management: [Code/Chapter7](Code/Chapter7)
 
 ## Part 3: C# – Productivity and Managed Memory
-- Chapter 9, C# Fundamentals and OOP: [Code/Chapter10](Code/Chapter10)
-- Chapter 10, Modern C# Features: [Code/Chapter11](Code/Chapter11)
-- Chapter 11, Memory Management in C#: [Code/Chapter12](Code/Chapter12)
+- Chapter 9, C# Fundamentals: [Code/Chapter9](Code/Chapter9)
+- Chapter 10, C# Object-Oriented Programming: [Code/Chapter10](Code/Chapter10)
+- Chapter 11, C# Modern Features: [Code/Chapter11](Code/Chapter11)
+- Chapter 12, C# Memory Management: [Code/Chapter12](Code/Chapter12)
 
 ## Part 4: Unity - Building a Game with C#
 [Code/CsharpUnityGame](Code/CsharpUnityGame)
-- Chapter 12, Build a Playable Game Fast
-- Chapter 13, Structure the Game Properly
-- Chapter 14, Polish, UI, and Feel
+- Chapter 13, Building a Playable Unity Game
+- Chapter 14, Structuring the Game Properly
+- Chapter 15, Polishing the UI and Feel
 
 ## Epilogue and Appendix
 
