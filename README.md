@@ -10,11 +10,11 @@ Repository for the Packt Publishing book titled *C, C++, and C# with an AI Sidek
 - [Free PDF/ePub of the book and how to contact the publisher Packt](#free-pdfepub-of-the-book-and-how-to-contact-the-publisher-packt)
 - [Author's books](#authors-books)
 - [Chapters and code projects](#chapters-and-code-projects)
-  - [Introduction](#introduction)
-  - [Part 1: C – Language Foundations and Manual Memory Management](#part-1-c--language-foundations-and-manual-memory-management)
-  - [Part 2: C++ – Improving Abstraction, Safety, and Power](#part-2-c--improving-abstraction-safety-and-power)
-  - [Part 3: C# – Modernizing Productivity and Managed Memory](#part-3-c--modernizing-productivity-and-managed-memory)
-  - [Part 4: Unity - Developing Games with C#](#part-4-unity---developing-games-with-c)
+  - [Part 1: Introduction](#part-1-introduction)
+  - [Part 2: C – Language Foundations and Manual Memory Management](#part-2-c--language-foundations-and-manual-memory-management)
+  - [Part 3: C++ – Improving Abstraction, Safety, and Power](#part-3-c--improving-abstraction-safety-and-power)
+  - [Part 4: C# – Modernizing Productivity and Managed Memory](#part-4-c--modernizing-productivity-and-managed-memory)
+  - [Part 5: Unity - Building Games with C#](#part-5-unity---building-games-with-c)
   - [Epilogue and Appendix](#epilogue-and-appendix)
 - [Online content](#online-content)
 - [Book Cover](#book-cover)
@@ -36,30 +36,30 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 
 # Chapters and code projects
 
-## Introduction
-- Chapter 1, Introduction to C, C++, and C#
+## Part 1: Introduction
+- Chapter 1, Introducing C, C++, and C#
 - Chapter 2, Learning and Coding with AI
 
-## Part 1: C – Language Foundations and Manual Memory Management
+## Part 2: C – Language Foundations and Manual Memory Management
 - Chapter 3, C Fundamentals: [Code/Chapter2](Code/Chapter2)
 - Chapter 4, C Memory Management: [Code/Chapter3](Code/Chapter3)
 - Chapter 5, C Limitations: [Code/Chapter4](Code/Chapter4)
 
-## Part 2: C++ – Improving Abstraction, Safety, and Power
+## Part 3: C++ – Improving Abstraction, Safety, and Power
 - Chapter 6, C++ Fundamentals: [Code/Chapter5](Code/Chapter5)
 - Chapter 7, C++ Object-Oriented Programming: [Code/Chapter6](Code/Chapter6)
 - Chapter 8, C++ Memory Management: [Code/Chapter7](Code/Chapter7)
 
-## Part 3: C# – Modernizing Productivity and Managed Memory
+## Part 4: C# – Modernizing Productivity and Managed Memory
 - Chapter 9, C# Fundamentals: [Code/Chapter9](Code/Chapter9)
 - Chapter 10, C# Object-Oriented Programming: [Code/Chapter10](Code/Chapter10)
 - Chapter 11, C# Modern Programming: [Code/Chapter11](Code/Chapter11)
 - Chapter 12, C# Memory Management: [Code/Chapter12](Code/Chapter12)
 
-## Part 4: Unity - Developing Games with C#
+## Part 5: Unity - Building Games with C#
 [Code/CsharpUnityGame](Code/CsharpUnityGame)
 - Chapter 13, Building a Playable Unity Game
-- Chapter 14, Structuring the Game Properly
+- Chapter 14, Structuring a Game Properly
 - Chapter 15, Polishing the Interactivity
 
 ## Epilogue and Appendix
