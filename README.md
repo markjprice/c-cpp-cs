@@ -38,7 +38,7 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 
 ## Introduction
 - Chapter 1, Introduction to C, C++, and C#
-- Chapter 2, Learning and Coding with an AI Sidekick
+- Chapter 2, Learning and Coding with AI
 
 ## Part 1: C – Language Foundations and Manual Memory Management
 - Chapter 3, C Fundamentals: [Code/Chapter2](Code/Chapter2)
