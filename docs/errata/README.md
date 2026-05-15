@@ -1,6 +1,6 @@
 # Errata and Improvements
 
-If you find any mistakes in the first edition, *Web Dev with an AI Copilot*, or if you have suggestions for improvements, then please [raise an issue in this repository](https://github.com/markjprice/web-dev-ai/issues) or email me at markjprice (at) gmail.com.
+If you find any mistakes in the first edition, *C, C++, and C# with an AI Sidekick*, or if you have suggestions for improvements, then please [raise an issue in this repository](https://github.com/markjprice/c-cpp-cs/issues) or email me at markjprice (at) gmail.com.
 
 [**Errata** (0 items)](errata.md): Typos, tool user interface and behavior changes, or mistakes in code that would cause a compilation error that prevents a successful build.
 

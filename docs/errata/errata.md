@@ -1,3 +1,3 @@
 **Errata** (0 items)
 
-If you find any mistakes, then please [raise an issue in this repository](https://github.com/markjprice/web-dev-ai/issues) or email me at markjprice (at) gmail.com.
+If you find any mistakes, then please [raise an issue in this repository](https://github.com/markjprice/c-cpp-cs/issues) or email me at markjprice (at) gmail.com.
