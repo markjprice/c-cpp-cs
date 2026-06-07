@@ -13,7 +13,7 @@ Create a folder for this chapter’s examples. For example:
 ```text
 c-cpp-cs
 └── code
-    └── ch03-c-fundamentals
+    └── Chapter03
 ```
 
 Inside that folder, create a project folder named:
@@ -27,7 +27,7 @@ Your folder structure should look like this:
 ```text
 c-cpp-cs
 └── code
-    └── ch03-c-fundamentals
+    └── Chapter03
         └── 01-hello-world
 ```
 
@@ -58,11 +58,7 @@ Save the file.
 
 To compile the program, you need a terminal.
 
-In VS Code, select:
-
-```text
-Terminal | New Terminal
-```
+In VS Code, navigate to **Terminal** | **New Terminal**.
 
 The terminal opens at the bottom of the VS Code window.
 
