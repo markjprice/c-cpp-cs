@@ -1,0 +1,62 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build selected Chapter 4 project with GCC",
+      "type": "shell",
+      "command": "gcc",
+      "args": [
+        "-std=c17",
+        "-Wall",
+        "-Wextra",
+        "-pedantic",
+        "${input:projectName}/main.c",
+        "-o",
+        "${input:projectName}/${input:executableName}"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [
+        "$gcc"
+      ]
+    },
+    {
+      "label": "Run selected Chapter 4 project",
+      "type": "shell",
+      "command": "./${input:projectName}/${input:executableName}",
+      "dependsOn": "Build selected Chapter 4 project with GCC",
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "projectName",
+      "type": "pickString",
+      "description": "Choose a Chapter 4 project",
+      "options": [
+        "01-pointers-basic",
+        "02-null-and-sizeof",
+        "03-arrays-pointer-arithmetic",
+        "04-struct-arrow-operator",
+        "05-memory-layout",
+        "06-global-static-local",
+        "07-stack-frames",
+        "08-stack-overflow-demo",
+        "09-heap-malloc-array",
+        "10-calloc-and-realloc",
+        "11-ownership-create-value",
+        "12-memory-errors-educational",
+        "13-debugging-and-assertions"
+      ],
+      "default": "01-pointers-basic"
+    },
+    {
+      "id": "executableName",
+      "type": "promptString",
+      "description": "Executable name",
+      "default": "app"
+    }
+  ]
+}

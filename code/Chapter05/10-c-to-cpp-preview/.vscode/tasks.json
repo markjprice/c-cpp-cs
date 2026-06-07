@@ -1,0 +1,39 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build C version with GCC",
+      "type": "shell",
+      "command": "gcc -std=c17 -Wall -Wextra -pedantic user_c_version.c -o user_c_version",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [
+        "$gcc"
+      ]
+    },
+    {
+      "label": "Build C++ preview with g++",
+      "type": "shell",
+      "command": "g++ -std=c++20 -Wall -Wextra -pedantic user_cpp_preview.cpp -o user_cpp_preview",
+      "problemMatcher": [
+        "$gcc"
+      ]
+    },
+    {
+      "label": "Run C version",
+      "type": "shell",
+      "command": "./user_c_version",
+      "dependsOn": "Build C version with GCC",
+      "problemMatcher": []
+    },
+    {
+      "label": "Run C++ preview",
+      "type": "shell",
+      "command": "./user_cpp_preview",
+      "dependsOn": "Build C++ preview with g++",
+      "problemMatcher": []
+    }
+  ]
+}

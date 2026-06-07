@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build with GCC",
+      "type": "shell",
+      "command": "gcc -std=c17 -Wall -Wextra -pedantic main.c math_utils.c -o math_example",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [
+        "$gcc"
+      ]
+    },
+    {
+      "label": "Run",
+      "type": "shell",
+      "command": "./math_example",
+      "dependsOn": "Build with GCC",
+      "problemMatcher": []
+    }
+  ]
+}
