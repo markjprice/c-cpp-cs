@@ -54,13 +54,13 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 - Chapter 9, C# Fundamentals: [Code/Chapter9](Code/Chapter9)
 - Chapter 10, C# Object-Oriented Programming: [Code/Chapter10](Code/Chapter10)
 - Chapter 11, C# Modern Programming: [Code/Chapter11](Code/Chapter11)
-- Chapter 12, C# Memory Management: [Code/Chapter12](Code/Chapter12)
+- Chapter 12, C# Memory Management and Resource Lifetime: [Code/Chapter12](Code/Chapter12)
+- Chapter 13, C# High-Performance Memory and Diagnostics: [Code/Chapter13](Code/Chapter13)
 
 ## Part 5: Unity - Building Games with C#
-[Code/CsharpUnityGame](Code/CsharpUnityGame)
-- Chapter 13, Building a Playable Unity Game
-- Chapter 14, Structuring a Game Properly
-- Chapter 15, Polishing the Interactivity
+- Chapter 14, Building a Playable Unity Game: [Code/Chapter13](Code/Chapter13)
+- Chapter 15, Structuring a Game Properly: [Code/Chapter14](Code/Chapter14)
+- Chapter 16, Polishing the Interactivity: [Code/Chapter15](Code/Chapter15)
 
 ## Epilogue and Appendix
 
