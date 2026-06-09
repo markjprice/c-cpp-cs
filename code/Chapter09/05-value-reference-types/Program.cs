@@ -1,26 +1,33 @@
 Console.WriteLine("Value type copy:");
-int a = 10;
-int b = a;
-b = 20;
-Console.WriteLine($"a = {a}");
-Console.WriteLine($"b = {b}");
+int firstInt = 10;
+int secondInt = firstInt;
 
-Console.WriteLine();
-Console.WriteLine("String reference with immutable replacement:");
-string first = "Hello";
-string second = first;
-second = "World";
-Console.WriteLine($"first = {first}");
-Console.WriteLine($"second = {second}");
+firstInt = 20;
+
+Console.WriteLine($"a = {firstInt}");
+Console.WriteLine($"b = {secondInt}");
 
 Console.WriteLine();
 Console.WriteLine("Array reference sharing:");
-int[] original = { 1, 2, 3 };
-int[] alias = original;
-alias[0] = 99;
-Console.WriteLine($"original[0] = {original[0]}");
-Console.WriteLine($"alias[0] = {alias[0]}");
+int[] firstArray = { 1, 2, 3 };
+int[] secondArray = firstArray;
+
+firstArray[0] = 99;
+
+Console.WriteLine($"firstArray[0] = {firstArray[0]}");
+Console.WriteLine($"secondArray[0] = {secondArray[0]}");
 
 Console.WriteLine();
 Console.WriteLine("The array variables refer to the same object:");
-Console.WriteLine(ReferenceEquals(original, alias));
+Console.WriteLine(ReferenceEquals(firstArray, secondArray));
+
+Console.WriteLine();
+Console.WriteLine("String reference with immutable replacement:");
+string firstString = "Hello";
+string secondString = firstString;
+
+firstString = "Hi";
+
+Console.WriteLine($"firstString = {firstString}");
+Console.WriteLine($"secondString = {secondString}");
+
