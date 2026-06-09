@@ -1,0 +1,16 @@
+<Solution>
+  <Project Path="01-managed-memory-runtime/01-managed-memory-runtime.csproj" />
+  <Project Path="02-stack-heap-lifetime/02-stack-heap-lifetime.csproj" />
+  <Project Path="03-value-reference-identity/03-value-reference-identity.csproj" />
+  <Project Path="04-boxing-hidden-allocations/04-boxing-hidden-allocations.csproj" />
+  <Project Path="05-allocation-pressure/05-allocation-pressure.csproj" />
+  <Project Path="06-reachability-gc-roots/06-reachability-gc-roots.csproj" />
+  <Project Path="07-generations-loh-gc-info/07-generations-loh-gc-info.csproj" />
+  <Project Path="08-idisposable-using/08-idisposable-using.csproj" />
+  <Project Path="09-custom-dispose-pattern/09-custom-dispose-pattern.csproj" />
+  <Project Path="10-finalizers-safehandle-async-dispose/10-finalizers-safehandle-async-dispose.csproj" />
+  <Project Path="11-managed-leaks-long-lived-references/11-managed-leaks-long-lived-references.csproj" />
+  <Project Path="12-events-timers-closures/12-events-timers-closures.csproj" />
+  <Project Path="13-caches-object-graphs/13-caches-object-graphs.csproj" />
+  <Project Path="14-weakreference-gchandle/14-weakreference-gchandle.csproj" />
+</Solution>

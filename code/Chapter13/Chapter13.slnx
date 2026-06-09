@@ -1,0 +1,14 @@
+<Solution>
+  <Project Path="01-spans-and-slices/01-spans-and-slices.csproj" />
+  <Project Path="02-memory-and-async/02-memory-and-async.csproj" />
+  <Project Path="03-stackalloc-small-buffers/03-stackalloc-small-buffers.csproj" />
+  <Project Path="04-arraypool-large-buffers/04-arraypool-large-buffers.csproj" />
+  <Project Path="05-object-pool-parser/05-object-pool-parser.csproj" />
+  <Project Path="06-caller-provided-buffers/06-caller-provided-buffers.csproj" />
+  <Project Path="07-unsafe-pointers-pinning/07-unsafe-pointers-pinning.csproj" />
+  <Project Path="08-allocation-pressure-hot-paths/08-allocation-pressure-hot-paths.csproj" />
+  <Project Path="09-dotnet-counters-demo/09-dotnet-counters-demo.csproj" />
+  <Project Path="10-gcdump-dump-workflow/10-gcdump-dump-workflow.csproj" />
+  <Project Path="11-profiler-snapshot-leak/11-profiler-snapshot-leak.csproj" />
+  <Project Path="12-efficient-memory-practices/12-efficient-memory-practices.csproj" />
+</Solution>

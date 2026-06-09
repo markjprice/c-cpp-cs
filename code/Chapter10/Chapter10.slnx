@@ -1,0 +1,12 @@
+<Solution>
+  <Project Path="01-classes-and-objects/01-classes-and-objects.csproj" />
+  <Project Path="02-encapsulation-properties/02-encapsulation-properties.csproj" />
+  <Project Path="03-constructors-lifecycle/03-constructors-lifecycle.csproj" />
+  <Project Path="04-generic-types-collections/04-generic-types-collections.csproj" />
+  <Project Path="05-inheritance-polymorphism/05-inheritance-polymorphism.csproj" />
+  <Project Path="06-interfaces-abstraction/06-interfaces-abstraction.csproj" />
+  <Project Path="07-structs-records-immutability/07-structs-records-immutability.csproj" />
+  <Project Path="08-static-members-utility-types/08-static-members-utility-types.csproj" />
+  <Project Path="09-composition-maintainable-design/09-composition-maintainable-design.csproj" />
+  <Project Path="10-banking-oop-project/10-banking-oop-project.csproj" />
+</Solution>

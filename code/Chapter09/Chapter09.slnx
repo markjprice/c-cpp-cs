@@ -1,0 +1,17 @@
+<Solution>
+  <Project Path="01-hello-top-level/HelloTopLevel.csproj" />
+  <Project Path="02-traditional-main/TraditionalMain.csproj" />
+  <Project Path="03-project-file-global-usings/ProjectFileExample.csproj" />
+  <Project Path="04-variables-types/VariablesTypes.csproj" />
+  <Project Path="05-value-reference-types/ValueReferenceTypes.csproj" />
+  <Project Path="06-nullable-const-readonly-var-dynamic/NullableConstReadonlyVarDynamic.csproj" />
+  <Project Path="07-operators-control-flow/OperatorsControlFlow.csproj" />
+  <Project Path="08-switch-patterns/SwitchPatterns.csproj" />
+  <Project Path="09-loops-jump-statements/LoopsJumpStatements.csproj" />
+  <Project Path="10-methods-parameters/MethodsParameters.csproj" />
+  <Project Path="11-arrays-basic-collections/ArraysBasicCollections.csproj" />
+  <Project Path="12-exception-handling/ExceptionHandling.csproj" />
+  <Project Path="13-namespaces-assemblies/src/GameEngine.Core/GameEngine.Core.csproj" />
+  <Project Path="13-namespaces-assemblies/src/NamespaceAssemblyDemo/NamespaceAssemblyDemo.csproj" />
+  <Project Path="14-clean-csharp-practices/CleanCSharpPractices.csproj" />
+</Solution>

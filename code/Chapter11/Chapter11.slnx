@@ -1,0 +1,16 @@
+<Solution>
+  <Project Path="01-nullability-safer-code/01-nullability-safer-code.csproj" />
+  <Project Path="02-union-payment-outcomes/02-union-payment-outcomes.csproj" />
+  <Project Path="03-pattern-matching-control-flow/03-pattern-matching-control-flow.csproj" />
+  <Project Path="04-delegates-lambdas-functions/04-delegates-lambdas-functions.csproj" />
+  <Project Path="05-closures-and-callbacks/05-closures-and-callbacks.csproj" />
+  <Project Path="06-extension-methods-fluent-api/06-extension-methods-fluent-api.csproj" />
+  <Project Path="07-linq-basics-pipelines/07-linq-basics-pipelines.csproj" />
+  <Project Path="08-linq-deferred-materialization/08-linq-deferred-materialization.csproj" />
+  <Project Path="09-linq-group-join-aggregate/09-linq-group-join-aggregate.csproj" />
+  <Project Path="10-functional-immutability-records/10-functional-immutability-records.csproj" />
+  <Project Path="11-immutable-collections/11-immutable-collections.csproj" />
+  <Project Path="12-modern-syntax-enhancements/12-modern-syntax-enhancements.csproj" />
+  <Project Path="13-performance-pitfalls/13-performance-pitfalls.csproj" />
+  <Project Path="14-spans-async-streams/14-spans-async-streams.csproj" />
+</Solution>
