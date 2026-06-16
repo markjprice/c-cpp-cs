@@ -1,0 +1,39 @@
+﻿<div class="game-status-bar @StatusCssClass">
+    <div>
+        <strong>Status:</strong> @State.ToStatusText()
+    </div>
+
+    @if (!string.IsNullOrWhiteSpace(Detail))
+    {
+        <div class="game-status-detail">
+            @Detail
+        </div>
+    }
+
+    @if (LastAction is not null)
+    {
+        <div class="game-status-action">
+            <strong>Last action:</strong> @LastAction.ToDisplayText()
+        </div>
+    }
+</div>
+
+@code {
+    [Parameter]
+    public GameState State { get; set; } = new NotStarted();
+
+    [Parameter]
+    public string? Detail { get; set; }
+
+    [Parameter]
+    public PuzzleAction LastAction { get; set; }
+
+    private string StatusCssClass => State switch
+    {
+        NotStarted _ => "status-not-started",
+        Playing _ => "status-playing",
+        Won _ => "status-won",
+        Lost _ => "status-lost",
+        _ => "status-unknown"
+    };
+}

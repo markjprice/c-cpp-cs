@@ -1,0 +1,46 @@
+﻿@page "/number-logic"
+
+<PageTitle>Number Logic</PageTitle>
+
+<GamePanel Title="Number Logic"
+           Instructions="Guess the hidden digit sequence using the clues from each attempt.">
+  <GameStatusBar State="state"
+                 Detail="This page will later validate digit guesses."
+                 LastAction="lastAction" />
+
+  <GameCommandBar State="state"
+                  ShowGuessForm="true"
+                  GuessLabel="Digits:"
+                  MaxGuessLength="4"
+                  GuessInputId="number-logic-input"
+                  OnAction="Dispatch" />
+
+  <p>
+    Number Logic uses the same shared command bar as Word Guess, but it
+    will apply different validation and scoring rules.
+  </p>
+</GamePanel>
+
+@code {
+    private GameState state = new NotStarted();
+    private PuzzleAction lastAction;
+
+    private void Dispatch(PuzzleAction action)
+    {
+        lastAction = action;
+
+        state = (state, action) switch
+        {
+            (NotStarted, StartGame) => new Playing(TurnsTaken: 0),
+
+            (Playing p, MakeGuess g) when !string.IsNullOrWhiteSpace(g.Text) =>
+                new Playing(p.TurnsTaken + 1),
+
+            (_, ResetGame) =>
+                new NotStarted(),
+
+            _ =>
+                state
+        };
+    }
+}

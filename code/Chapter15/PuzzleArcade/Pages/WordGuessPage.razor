@@ -1,0 +1,49 @@
+﻿@page "/word-guess"
+
+<PageTitle>Word Guess</PageTitle>
+
+<GamePanel Title="Word Guess"
+           Instructions="Guess the hidden word before you run out of attempts.">
+    <GameStatusBar State="state"
+                   Detail="This is still a wiring test. The real word rules come next."
+                   LastAction="lastAction" />
+
+    <GameCommandBar State="state"
+                    ShowGuessForm="true"
+                    GuessLabel="Word:"
+                    MaxGuessLength="8"
+                    GuessInputId="word-guess-input"
+                    OnAction="Dispatch" />
+
+    <p>
+        The shared command bar creates player actions. This page receives
+        those actions and updates its model.
+    </p>
+</GamePanel>
+
+@code {
+    private GameState state = new NotStarted();
+    private PuzzleAction lastAction;
+
+    private void Dispatch(PuzzleAction action)
+    {
+        lastAction = action;
+
+        state = (state, action) switch
+        {
+            (NotStarted, StartGame) => new Playing(TurnsTaken: 0),
+
+            (Playing p, MakeGuess g) when !string.IsNullOrWhiteSpace(g.Text) =>
+                new Playing(p.TurnsTaken + 1),
+
+            (Playing, ShowHint) =>
+                state,
+
+            (_, ResetGame) =>
+                new NotStarted(),
+
+            _ =>
+                state
+        };
+    }
+}

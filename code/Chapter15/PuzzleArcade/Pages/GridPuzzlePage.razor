@@ -1,0 +1,41 @@
+﻿@page "/grid-puzzle"
+
+<PageTitle>Grid Puzzle</PageTitle>
+
+<GamePanel Title="Grid Puzzle"
+           Instructions="Click cells in the grid until the board reaches the solved pattern.">
+  <GameStatusBar State="state"
+                 Detail="This page will later display a clickable grid."
+                 LastAction="lastAction" />
+
+  <GameCommandBar State="state"
+                  ShowGuessForm="false"
+                  ShowHintButton="true"
+                  OnAction="Dispatch" />
+
+  <p>
+    Grid Puzzle does not use text guesses. Its board will create
+    SelectCell actions when the player clicks cells.
+  </p>
+</GamePanel>
+
+@code {
+    private GameState state = new NotStarted();
+    private PuzzleAction lastAction;
+
+    private void Dispatch(PuzzleAction action)
+    {
+        lastAction = action;
+
+        state = (state, action) switch
+        {
+            (NotStarted, StartGame) => new Playing(TurnsTaken: 0),
+
+            (_, ResetGame) =>
+                new NotStarted(),
+
+            _ =>
+                state
+        };
+    }
+}
