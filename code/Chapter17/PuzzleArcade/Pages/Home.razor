@@ -1,0 +1,23 @@
+﻿@page "/"
+
+<PageTitle>Puzzle Arcade</PageTitle>
+
+<p>
+  Choose a small puzzle game. Each game uses the same basic pattern:
+  the player performs an action, the game updates its state, and the
+  UI refreshes to show the result.
+</p>
+
+<div class="arcade-grid">
+  <ArcadeCard Title="Word Guess"
+              Description="Guess a hidden word using a limited number of attempts."
+              Url="/word-guess" />
+
+  <ArcadeCard Title="Number Logic"
+              Description="Guess a hidden sequence of digits using clue-based feedback."
+              Url="/number-logic" />
+
+  <ArcadeCard Title="Grid Puzzle"
+              Description="Click cells in a small grid until the board reaches a solved state."
+              Url="/grid-puzzle" />
+</div>

@@ -1,0 +1,54 @@
+﻿@page "/grid-puzzle"
+
+@using PuzzleArcade.Games.GridPuzzle
+
+<PageTitle>Grid Puzzle</PageTitle>
+
+<GamePanel Title="Grid Puzzle"
+           Instructions="Click cells in the grid until every cell is off.">
+    <GameStatusBar State="model.State"
+                   Detail="@StatusDetail"
+                   LastAction="lastAction" />
+
+    <GameCommandBar State="model.State"
+                    ShowGuessForm="false"
+                    ShowHintButton="true"
+                    OnAction="Dispatch" />
+
+    <p>@model.Message</p>
+
+<div class="grid-board"
+     style="grid-template-columns: repeat(@model.ColumnCount, 3rem);">
+  @foreach (GridTile tile in model.Board.GetTiles())
+  {
+    <button type="button"
+            class="grid-cell @(tile.IsOn ? "grid-cell-on" : "grid-cell-off")"
+            disabled="@(!model.CanSelectTiles)"
+            @onclick="() => SelectTile(tile.Position)">
+      @(tile.IsOn ? "On" : "Off")
+    </button>
+  }
+</div>
+</GamePanel>
+
+@code {
+    private GridPuzzleModel model = GridPuzzleRules.CreateInitial();
+    private PuzzleAction lastAction;
+
+    private string StatusDetail =>
+        model.State switch
+        {
+            Playing => $"Moves taken: {model.MovesTaken}",
+            Won => $"Solved in {model.MovesTaken} moves.",
+            _ => model.Message
+        };
+
+    private void SelectTile(GridPosition position) =>
+        Dispatch(new SelectCell(position.Row, position.Column));
+
+    private void Dispatch(PuzzleAction action)
+    {
+        lastAction = action;
+        model = GridPuzzleRules.Update(model, action);
+    }
+}

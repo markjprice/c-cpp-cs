@@ -1,0 +1,72 @@
+﻿@page "/word-guess"
+
+@using PuzzleArcade.Games.WordGuess
+
+<PageTitle>Word Guess</PageTitle>
+
+<GamePanel Title="Word Guess"
+           Instructions="Guess the hidden word before you run out of attempts.">
+    <GameStatusBar State="model.State"
+                   Detail="@StatusDetail"
+                   LastAction="lastAction" />
+
+    <GameCommandBar State="model.State"
+                    ShowGuessForm="true"
+                    GuessLabel="Word:"
+                    MaxGuessLength="12"
+                    GuessInputId="word-guess-input"
+                    OnAction="Dispatch" />
+
+    <p>@model.Message</p>
+
+    <!-- Comment out the following <p> before deploying. -->
+    <p><strong>Debug answer:</strong> @model.Answer</p>
+
+@if (model.Attempts.Count > 0)
+{
+  <h2>Attempts</h2>
+
+  <div class="attempt-list">
+    @foreach (GuessAttempt attempt in model.Attempts)
+    {
+      <div class="attempt-row">
+        @foreach (LetterFeedback item in attempt.Feedback)
+        {
+          <span class="letter-tile @GetFeedbackCssClass(item.Kind)">
+            @char.ToUpperInvariant(item.Letter)
+          </span>
+        }
+      </div>
+    }
+  </div>
+}
+</GamePanel>
+
+    @code {
+    private WordGuessModel model = WordGuessRules.CreateInitial();
+    private PuzzleAction lastAction;
+
+    private string StatusDetail =>
+        model.State switch
+        {
+            Playing => $"Attempts remaining: {model.AttemptsRemaining}",
+            Won => "The round is complete.",
+            Lost => "The round is complete.",
+            _ => model.Message
+        };
+
+    private void Dispatch(PuzzleAction action)
+    {
+        lastAction = action;
+        model = WordGuessRules.Update(model, action);
+    }
+
+    private static string GetFeedbackCssClass(LetterFeedbackKind kind) =>
+        kind switch
+        {
+            LetterFeedbackKind.Exact => "letter-exact",
+            LetterFeedbackKind.Misplaced => "letter-misplaced",
+            LetterFeedbackKind.Absent => "letter-absent",
+            _ => "letter-unknown"
+        };
+}
