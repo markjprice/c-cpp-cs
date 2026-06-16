@@ -1,0 +1,29 @@
+﻿<section class="game-panel">
+    <header class="game-panel-header">
+        <h1>@Title</h1>
+
+        @if (!string.IsNullOrWhiteSpace(Instructions))
+        {
+            <p>@Instructions</p>
+        }
+    </header>
+
+    <div class="game-panel-body">
+        @ChildContent
+    </div>
+
+    <p>
+        <NavLink href="/">Back to arcade</NavLink>
+    </p>
+</section>
+
+@code {
+    [Parameter]
+    public string Title { get; set; } = "";
+
+    [Parameter]
+    public string Instructions { get; set; } = "";
+
+    [Parameter]
+    public RenderFragment? ChildContent { get; set; }
+}
