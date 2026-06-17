@@ -14,7 +14,7 @@ Repository for the Packt Publishing book titled *C, C++, and C# with an AI Sidek
   - [Part 2: C – Language Foundations and Manual Memory Management](#part-2-c--language-foundations-and-manual-memory-management)
   - [Part 3: C++ – Improving Abstraction, Safety, and Power](#part-3-c--improving-abstraction-safety-and-power)
   - [Part 4: C# – Modernizing Productivity and Managed Memory](#part-4-c--modernizing-productivity-and-managed-memory)
-  - [Part 5: Unity - Building Games with C#](#part-5-unity---building-games-with-c)
+  - [Part 5: Blazor and Unity - Building Games with C#](#part-5-blazor-and-unity---building-games-with-c)
   - [Epilogue and Appendix](#epilogue-and-appendix)
 - [Online content](#online-content)
 - [Book Cover](#book-cover)
@@ -57,7 +57,7 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 - Chapter 12, C# Memory Management and Resource Lifetime: [Code/Chapter12](Code/Chapter12)
 - Chapter 13, C# High-Performance Memory and Diagnostics: [Code/Chapter13](Code/Chapter13)
 
-## Part 5: Unity - Building Games with C#
+## Part 5: Blazor and Unity - Building Games with C#
 - Chapter 14, Introducing Game Development with C#
 - Chapter 15, Building the Puzzle Arcade Shell: [Code/Chapter15](Code/Chapter15)
 - Chapter 16, Building Word Guess and Number Logic: [Code/Chapter16](Code/Chapter16)
