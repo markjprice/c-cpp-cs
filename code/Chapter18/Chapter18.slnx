@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="PuzzleArcade.Tests/PuzzleArcade.Tests.csproj" Id="d8296bc9-5829-4d20-8350-49d5dc7e262b" />
+  <Project Path="PuzzleArcade/PuzzleArcade.csproj" />
+</Solution>

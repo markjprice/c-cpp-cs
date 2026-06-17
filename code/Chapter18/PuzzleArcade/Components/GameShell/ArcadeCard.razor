@@ -1,0 +1,20 @@
+﻿<div class="arcade-card">
+    <h2>@Title</h2>
+
+    <p>@Description</p>
+
+    <NavLink class="arcade-link" href="@Url">
+        Play
+    </NavLink>
+</div>
+
+@code {
+    [Parameter]
+    public string Title { get; set; } = "";
+
+    [Parameter]
+    public string Description { get; set; } = "";
+
+    [Parameter]
+    public string Url { get; set; } = "";
+}

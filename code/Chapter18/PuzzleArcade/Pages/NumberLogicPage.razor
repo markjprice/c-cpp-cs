@@ -1,0 +1,102 @@
+﻿@page "/number-logic"
+
+@using PuzzleArcade.Games.NumberLogic
+
+<PageTitle>Number Logic</PageTitle>
+
+<GamePanel Title="Number Logic"
+           Instructions="Guess the hidden digit sequence using the clues from each attempt.">
+  <GameStatusBar State="model.State"
+                 Detail="@StatusDetail"
+                 LastAction="lastAction" />
+
+    <div class="setting-row">
+        <label for="number-difficulty">Difficulty:</label>
+
+        <select id="number-difficulty"
+                @bind="selectedDifficulty"
+                disabled="@(model.State is Playing)">
+            <option value="@DifficultyLevel.Easy">Easy</option>
+            <option value="@DifficultyLevel.Normal">Normal</option>
+            <option value="@DifficultyLevel.Hard">Hard</option>
+        </select>
+    </div>
+
+  <GameCommandBar State="model.State"
+                  ShowGuessForm="true"
+                  GuessLabel="Digits:"
+                  MaxGuessLength="@SelectedSecretLength"
+                  GuessInputId="number-logic-input"
+                  OnAction="Dispatch" />
+
+  <p>@model.Message</p>
+
+    <!-- Comment out the following <p> before deploying. -->
+    <p><strong>Debug secret:</strong> @model.Secret</p>
+
+@if (model.Attempts.Count > 0)
+{
+  <h2>Attempts</h2>
+
+  <table class="attempt-table">
+    <thead>
+      <tr>
+        <th>Guess</th>
+        <th>Exact</th>
+        <th>Misplaced</th>
+        <th>Summary</th>
+      </tr>
+    </thead>
+    <tbody>
+      @foreach (NumberLogicAttempt attempt in model.Attempts)
+      {
+        <tr>
+          <td class="digit-guess">@attempt.Guess</td>
+          <td>@attempt.Clue.ExactMatches</td>
+          <td>@attempt.Clue.MisplacedMatches</td>
+          <td>@attempt.ClueText</td>
+        </tr>
+      }
+    </tbody>
+  </table>
+}
+</GamePanel>
+
+@code {
+    private NumberLogicModel model = NumberLogicRules.CreateInitial();
+    private PuzzleAction lastAction;
+    private DifficultyLevel selectedDifficulty = DifficultyLevel.Normal;
+
+    private int SelectedSecretLength =>
+        selectedDifficulty switch
+    {
+        DifficultyLevel.Easy => 3,
+        DifficultyLevel.Normal => 4,
+        DifficultyLevel.Hard => 5,
+        _ => 4
+    };
+
+    private string StatusDetail =>
+        model.State switch
+        {
+            Playing => $"{model.Difficulty} mode. Attempts remaining: {model.AttemptsRemaining}",
+            Won => $"Solved in {model.AttemptsUsed} attempts.",
+            Lost => "The round is complete.",
+            _ => model.Message
+        };
+
+    private void Dispatch(PuzzleAction action)
+    {
+        lastAction = action;
+
+        if (action is StartGame && model.State is not Playing)
+        {
+            model = model with
+            {
+                Difficulty = selectedDifficulty
+            };
+        }
+
+        model = NumberLogicRules.Update(model, action);
+    }
+}

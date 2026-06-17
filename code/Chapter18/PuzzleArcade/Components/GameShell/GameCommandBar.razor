@@ -1,0 +1,87 @@
+﻿<div class="game-command-bar">
+    <div class="command-row">
+        <button type="button"
+                @onclick="Start"
+                disabled="@IsStartDisabled">
+            Start
+        </button>
+
+        <button type="button"
+                @onclick="Reset">
+            Reset
+        </button>
+
+        @if (ShowHintButton)
+        {
+            <button type="button"
+                    @onclick="Hint"
+                    disabled="@IsPlayActionDisabled">
+                Hint
+            </button>
+        }
+    </div>
+
+    @if (ShowGuessForm)
+    {
+        <form class="guess-form"
+              @onsubmit="SubmitGuess"
+              @onsubmit:preventDefault="true">
+            <label for="@GuessInputId">@GuessLabel</label>
+
+            <input id="@GuessInputId"
+                   @bind="guessText"
+                   @bind:event="oninput"
+                   maxlength="@MaxGuessLength"
+                   disabled="@IsPlayActionDisabled" />
+
+            <button type="submit"
+                    disabled="@IsPlayActionDisabled">
+                Guess
+            </button>
+        </form>
+    }
+</div>
+
+@code {
+    private string guessText = "";
+
+    [Parameter]
+    public GameState State { get; set; } = new NotStarted();
+
+    [Parameter]
+    public EventCallback<PuzzleAction> OnAction { get; set; }
+
+    [Parameter]
+    public bool ShowGuessForm { get; set; }
+
+    [Parameter]
+    public bool ShowHintButton { get; set; } = true;
+
+    [Parameter]
+    public string GuessLabel { get; set; } = "Guess:";
+
+    [Parameter]
+    public int MaxGuessLength { get; set; } = 12;
+
+    [Parameter]
+    public string GuessInputId { get; set; } = "guess";
+
+    private bool IsStartDisabled => State is Playing;
+
+    private bool IsPlayActionDisabled => State is not Playing;
+
+    private async Task Start() =>
+        await OnAction.InvokeAsync(new StartGame());
+
+    private async Task Reset() =>
+        await OnAction.InvokeAsync(new ResetGame());
+
+    private async Task Hint() =>
+        await OnAction.InvokeAsync(new ShowHint());
+
+    private async Task SubmitGuess()
+    {
+        await OnAction.InvokeAsync(new MakeGuess(guessText));
+        guessText = "";
+    }
+}
