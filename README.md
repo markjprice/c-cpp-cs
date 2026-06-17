@@ -58,9 +58,13 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 - Chapter 13, C# High-Performance Memory and Diagnostics: [Code/Chapter13](Code/Chapter13)
 
 ## Part 5: Unity - Building Games with C#
-- Chapter 14, Building a Playable Unity Game: [Code/Chapter13](Code/Chapter13)
-- Chapter 15, Structuring a Game Properly: [Code/Chapter14](Code/Chapter14)
-- Chapter 16, Polishing the Interactivity: [Code/Chapter15](Code/Chapter15)
+- Chapter 14, Introducing Game Development with C#
+- Chapter 15, Building the Puzzle Arcade Shell: [Code/Chapter15](Code/Chapter15)
+- Chapter 16, Building Word Guess and Number Logic: [Code/Chapter16](Code/Chapter16)
+- Chapter 17, Modeling Boards and Tile Actions: [Code/Chapter17](Code/Chapter17)
+- Chapter 18, AI-Assisted Variations, Testing, and Review: [Code/Chapter18](Code/Chapter18)
+- Chapter 19, Hand-Crafting a 3D Game in Unity: [Code/Chapter19](Code/Chapter19)
+- Chapter 20, AI-Assisted Unity Game Development: [Code/Chapter20](Code/Chapter20)
 
 ## Epilogue and Appendix
 
