@@ -64,7 +64,7 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 - Chapter 17, Modeling Boards and Tile Actions: [Code/Chapter17](Code/Chapter17)
 - Chapter 18, AI-Assisted Variations, Testing, and Review: [Code/Chapter18](Code/Chapter18)
 - Chapter 19, Hand-Crafting a 3D Game in Unity: [Code/Chapter19](Code/Chapter19)
-- Chapter 20, AI-Assisted Unity Game Development: [Code/Chapter20](Code/Chapter20)
+- Chapter 20, Improving a Unity Game with AI Assistance: [Code/Chapter20](Code/Chapter20)
 
 ## Epilogue and Appendix
 
