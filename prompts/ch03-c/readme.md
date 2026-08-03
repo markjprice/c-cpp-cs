@@ -6,10 +6,10 @@
 - [Compare how C handles variables and types versus Python or JavaScript.](ch03-04.md)
 - [Please show me how operator precedence works in C with a table and examples that produce surprising results.](ch03-05.md)
 - [Demonstrate short-circuit evaluation in C with examples that include side effects.](ch03-06.md)
+- [Please explain how numbers are represented as binary 1s and 0s and then show examples of bitwise operators in C.](ch03-13.md)
 - [Please generate a small C program that uses every type of operator and explain each line.](ch03-07.md)
 - [Please explain how printf format specifiers work internally and what happens if you use the wrong one.](ch03-08.md)
 - [Please create a quiz on C operators and control flow with answers explained.](ch03-09.md)
 - [Rewrite a messy C program into clean, readable code and explain the improvements.](ch03-10.md)
 - [Please explain why uninitialized variables are dangerous in C and show real examples of unexpected behavior.](ch03-11.md)
 - [Please give me five examples of common beginner mistakes in C syntax and explain why they happen.](ch03-12.md)
-
