@@ -1,4 +1,4 @@
-**Prompts for *Chapter 9 * with links to responses**
+**Prompts for *Chapter 9 C# Fundamentals* with links to responses**
 
 - [Please explain what actually happens behind the scenes when a C# top-level statement program is compiled and executed.](ch09-01.md)
 - [Please compare how a simple “Hello World” program works in C, C++, and C#.](ch09-02.md)
