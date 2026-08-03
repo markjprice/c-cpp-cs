@@ -11,5 +11,6 @@
 - [Please explain how printf format specifiers work internally and what happens if you use the wrong one.](ch03-08.md)
 - [Please create a quiz on C operators and control flow with answers explained.](ch03-09.md)
 - [Rewrite a messy C program into clean, readable code and explain the improvements.](ch03-10.md)
+- [Please describe common guidelines for naming variables and functions in C.](ch03-14.md)
 - [Please explain why uninitialized variables are dangerous in C and show real examples of unexpected behavior.](ch03-11.md)
 - [Please give me five examples of common beginner mistakes in C syntax and explain why they happen.](ch03-12.md)
