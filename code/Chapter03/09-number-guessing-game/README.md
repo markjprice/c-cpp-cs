@@ -4,6 +4,7 @@ This is the complete multi-file project from the end of Chapter 3.
 
 Files:
 
+- `README.md`: this file that describes the project and is shown by GitHub by default when the project folder is viewed.
 - `main.c`: program entry point.
 - `game.h`: public declaration for the game module.
 - `game.c`: guessing game logic.
