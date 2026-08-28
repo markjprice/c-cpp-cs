@@ -13,7 +13,6 @@
 - [Keep learning modern language features](#keep-learning-modern-language-features)
 - [Writing code for humans](#writing-code-for-humans)
 
-
 This online-only section focuses on practical development habits and coding practices that help developers write cleaner, safer, and more maintainable C# applications. Learning syntax and language features is only part of becoming an effective developer. Professional software development also requires writing code that other people can understand, maintain, test, and extend over time. Clean code reduces bugs, simplifies debugging, improves collaboration, and makes applications easier to evolve as requirements change.
 
 One of the reasons C# became so successful in enterprise development is that the language encourages structured, maintainable design. Features such as properties, strong typing, generics, interfaces, nullable analysis, and modern tooling all support cleaner coding practices. However, no language feature can automatically guarantee readable or maintainable software. Good habits still matter enormously.
