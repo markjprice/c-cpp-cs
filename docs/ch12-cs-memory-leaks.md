@@ -9,6 +9,7 @@ The garbage collector is not allowed to guess that an object is no longer useful
 This section shows the most common ways that managed objects are kept alive accidentally. You will learn why static fields, long-lived collections, events, timers, captured variables, caches, and undisposed resources can all retain memory. 
 
 Once you understand that managed leaks are usually unwanted references, the first pattern to watch for is long-lived state.
+
 Many of the code examples in this section use the following class:
 ```cs
 public class CrewMember
