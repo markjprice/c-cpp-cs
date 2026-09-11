@@ -1,3 +1,19 @@
 **Prompts for *Chapter 10 C# Object-Oriented Programming* with links to responses**
 
-- []
+- [Please explain the difference between encapsulation and abstraction in simple language with C# and C++ examples.](ch10-01.md)
+- [Please explain object-oriented programming in C# using a real-world analogy that compares classes, objects, interfaces, and inheritance.](ch10-02.md)
+- [Why are public fields considered bad practice in modern C#?](ch10-03.md)
+- [Please explain expression-bodied properties and methods with examples from production code.](ch10-04.md)
+- [Please explain constructor chaining visually with a step-by-step execution trace.](ch10-05.md)
+- [Compare constructors, object initializers, and primary constructors in modern C#.](ch10-06.md)
+- [What are the dangers of partially initialized objects?](ch10-07.md)
+- [Why are generics safer than older object-based collections?](ch10-08.md)
+- [Please show me how List<T> internally resizes itself.](ch10-09.md)
+- [Please explain runtime polymorphism step-by-step using a game engine example.](ch10-10.md)
+- [What is method hiding with new in C#, and how is it different from override?](ch10-11.md)
+- [Please show me examples of how interfaces make unit testing easier.](ch10-12.md)
+- [When should I use a struct instead of a class?](ch10-13.md)
+- [Please explain readonly struct and immutable design.](ch10-14.md)
+- [Please explain the difference between classes, structs, and records in modern C#. Why are records popular in modern C# APIs? Show how value equality works in records.](ch10-15.md)
+- [Please explain thread safety problems with static variables. What problems do immutable objects solve in multithreaded applications?](ch10-16.md)
+- [What are the dangers of too much static state?](ch10-17.md)
