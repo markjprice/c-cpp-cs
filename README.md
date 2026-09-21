@@ -37,34 +37,34 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 # Chapters and code projects
 
 ## Part 1: Introduction
-- Chapter 1, Introducing C, C++, and C#: [code/Chapter1](code/Chapter1)
+- Chapter 1, Introducing C, C++, and C#: [code/Chapter1](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter01)
 - Chapter 2, Learning and Coding with AI
 
 ## Part 2: C – Language Foundations and Manual Memory Management
-- Chapter 3, C Fundamentals: [code/Chapter3](code/Chapter3)
-- Chapter 4, C Memory Management: [code/Chapter4](code/Chapter4)
-- Chapter 5, C Limitations: [code/Chapter5](code/Chapter5)
+- Chapter 3, C Fundamentals: [code/Chapter3](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter03)
+- Chapter 4, C Memory Management: [code/Chapter4](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter04)
+- Chapter 5, C Limitations: [code/Chapter5](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter05)
 
 ## Part 3: C++ – Improving Abstraction, Safety, and Power
-- Chapter 6, C++ Fundamentals: [code/Chapter6](code/Chapter6)
-- Chapter 7, C++ Object-Oriented Programming: [code/Chapter7](code/Chapter7)
-- Chapter 8, C++ Memory Management: [code/Chapter8](code/Chapter8)
+- Chapter 6, C++ Fundamentals: [code/Chapter6](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter06)
+- Chapter 7, C++ Object-Oriented Programming: [code/Chapter7](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter07)
+- Chapter 8, C++ Memory Management: [code/Chapter8](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter08)
 
 ## Part 4: C# – Modernizing Productivity and Managed Memory
-- Chapter 9, C# Fundamentals: [code/Chapter9](code/Chapter9)
-- Chapter 10, C# Object-Oriented Programming: [code/Chapter10](code/Chapter10)
-- Chapter 11, C# Modern Programming: [code/Chapter11](code/Chapter11)
-- Chapter 12, C# Memory Management and Resource Lifetime: [code/Chapter12](code/Chapter12)
-- Chapter 13, C# High-Performance Memory and Diagnostics: [code/Chapter13](code/Chapter13)
+- Chapter 9, C# Fundamentals: [code/Chapter9](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter09)
+- Chapter 10, C# Object-Oriented Programming: [code/Chapter10](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter10)
+- Chapter 11, C# Modern Programming: [code/Chapter11](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter11)
+- Chapter 12, C# Memory Management and Resource Lifetime: [code/Chapter12](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter12)
+- Chapter 13, C# High-Performance Memory and Diagnostics: [code/Chapter13](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter13)
 
 ## Part 5: Blazor and Unity - Building Games with C#
 - Chapter 14, Introducing Game Development with C#
-- Chapter 15, Building the Puzzle Arcade Shell: [code/Chapter15](code/Chapter15)
-- Chapter 16, Building Word Guess and Number Logic: [code/Chapter16](code/Chapter16)
-- Chapter 17, Modeling Boards and Tile Actions: [code/Chapter17](code/Chapter17)
-- Chapter 18, AI-Assisted Variations, Testing, and Review: [code/Chapter18](code/Chapter18)
-- Chapter 19, Hand-Crafting a 3D Game in Unity: [code/Chapter19](code/Chapter19)
-- Chapter 20, Improving a Unity Game with AI Assistance: [code/Chapter20](code/Chapter20)
+- Chapter 15, Building the Puzzle Arcade Shell: [code/Chapter15](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter15)
+- Chapter 16, Building Word Guess and Number Logic: [code/Chapter16](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter16)
+- Chapter 17, Modeling Boards and Tile Actions: [code/Chapter17](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter17)
+- Chapter 18, AI-Assisted Variations, Testing, and Review: [code/Chapter18](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter18)
+- Chapter 19, Hand-Crafting a 3D Game in Unity: [code/Chapter19](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter19)
+- Chapter 20, Improving a Unity Game with AI Assistance: [code/Chapter20](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter20)
 
 ## Epilogue and Appendix
 
