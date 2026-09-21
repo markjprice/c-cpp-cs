@@ -37,34 +37,34 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 # Chapters and code projects
 
 ## Part 1: Introduction
-- Chapter 1, Introducing C, C++, and C#
+- Chapter 1, Introducing C, C++, and C#: [code/Chapter1](code/Chapter1)
 - Chapter 2, Learning and Coding with AI
 
 ## Part 2: C – Language Foundations and Manual Memory Management
-- Chapter 3, C Fundamentals: [Code/Chapter2](Code/Chapter2)
-- Chapter 4, C Memory Management: [Code/Chapter3](Code/Chapter3)
-- Chapter 5, C Limitations: [Code/Chapter4](Code/Chapter4)
+- Chapter 3, C Fundamentals: [code/Chapter3](code/Chapter3)
+- Chapter 4, C Memory Management: [code/Chapter4](code/Chapter4)
+- Chapter 5, C Limitations: [code/Chapter5](code/Chapter5)
 
 ## Part 3: C++ – Improving Abstraction, Safety, and Power
-- Chapter 6, C++ Fundamentals: [Code/Chapter5](Code/Chapter5)
-- Chapter 7, C++ Object-Oriented Programming: [Code/Chapter6](Code/Chapter6)
-- Chapter 8, C++ Memory Management: [Code/Chapter7](Code/Chapter7)
+- Chapter 6, C++ Fundamentals: [code/Chapter6](code/Chapter6)
+- Chapter 7, C++ Object-Oriented Programming: [code/Chapter7](code/Chapter7)
+- Chapter 8, C++ Memory Management: [code/Chapter8](code/Chapter8)
 
 ## Part 4: C# – Modernizing Productivity and Managed Memory
-- Chapter 9, C# Fundamentals: [Code/Chapter9](Code/Chapter9)
-- Chapter 10, C# Object-Oriented Programming: [Code/Chapter10](Code/Chapter10)
-- Chapter 11, C# Modern Programming: [Code/Chapter11](Code/Chapter11)
-- Chapter 12, C# Memory Management and Resource Lifetime: [Code/Chapter12](Code/Chapter12)
-- Chapter 13, C# High-Performance Memory and Diagnostics: [Code/Chapter13](Code/Chapter13)
+- Chapter 9, C# Fundamentals: [code/Chapter9](code/Chapter9)
+- Chapter 10, C# Object-Oriented Programming: [code/Chapter10](code/Chapter10)
+- Chapter 11, C# Modern Programming: [code/Chapter11](code/Chapter11)
+- Chapter 12, C# Memory Management and Resource Lifetime: [code/Chapter12](code/Chapter12)
+- Chapter 13, C# High-Performance Memory and Diagnostics: [code/Chapter13](code/Chapter13)
 
 ## Part 5: Blazor and Unity - Building Games with C#
 - Chapter 14, Introducing Game Development with C#
-- Chapter 15, Building the Puzzle Arcade Shell: [Code/Chapter15](Code/Chapter15)
-- Chapter 16, Building Word Guess and Number Logic: [Code/Chapter16](Code/Chapter16)
-- Chapter 17, Modeling Boards and Tile Actions: [Code/Chapter17](Code/Chapter17)
-- Chapter 18, AI-Assisted Variations, Testing, and Review: [Code/Chapter18](Code/Chapter18)
-- Chapter 19, Hand-Crafting a 3D Game in Unity: [Code/Chapter19](Code/Chapter19)
-- Chapter 20, Improving a Unity Game with AI Assistance: [Code/Chapter20](Code/Chapter20)
+- Chapter 15, Building the Puzzle Arcade Shell: [code/Chapter15](code/Chapter15)
+- Chapter 16, Building Word Guess and Number Logic: [code/Chapter16](code/Chapter16)
+- Chapter 17, Modeling Boards and Tile Actions: [code/Chapter17](code/Chapter17)
+- Chapter 18, AI-Assisted Variations, Testing, and Review: [code/Chapter18](code/Chapter18)
+- Chapter 19, Hand-Crafting a 3D Game in Unity: [code/Chapter19](code/Chapter19)
+- Chapter 20, Improving a Unity Game with AI Assistance: [code/Chapter20](code/Chapter20)
 
 ## Epilogue and Appendix
 
@@ -76,6 +76,7 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 
 - [Common Mistakes, Improvements, and Errata aka list of corrections](docs/errata/README.md)
 - [Command-Lines](docs/command-lines.md) page lists all commands as a single line that can be copied and pasted to make it easier to enter commands at the prompt.
+- [Prompts](prompts/readme.md)
 - [Book Links](docs/book-links.md)
 
 # Book Cover
