@@ -1,4 +1,4 @@
-# Prompts
+# Prompts for *C, C++, and C# Programming for Beginners*
 
 - [Chapter 1 Introducing C, C++, and C#](ch01.md)
 - [Chapter 2 Learning and Coding with AI](ch02.md)
