@@ -1,12 +1,12 @@
 > **IMPORTANT!** [Common Mistakes, Improvements, and Errata aka list of corrections](docs/errata/README.md)
 
-# C, C++, and C# with an AI Sidekick, First Edition
+# C, C++, and C# Programming for Beginners
 
-Repository for the Packt Publishing book titled *C, C++, and C# with an AI Sidekick* by Mark J. Price.
+Repository for the Packt Publishing book titled *C, C++, and C# Programming for Beginners* by Mark J. Price.
 
 > **[FAQs](https://github.com/markjprice/markjprice/blob/main/FAQs.md)**
 
-- [C, C++, and C# with an AI Sidekick, First Edition](#c-c-and-c-with-an-ai-sidekick-first-edition)
+- [C, C++, and C# Programming for Beginners](#c-c-and-c-programming-for-beginners)
 - [Free PDF/ePub of the book and how to contact the publisher Packt](#free-pdfepub-of-the-book-and-how-to-contact-the-publisher-packt)
 - [Author's books](#authors-books)
 - [Chapters and code projects](#chapters-and-code-projects)
