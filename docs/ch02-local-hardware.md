@@ -1,4 +1,14 @@
-# Choosing a local model for your hardware
+# Chapter 2 online section - Choosing a local model for your hardware
+
+- [Chapter 2 online section - Choosing a local model for your hardware](#chapter-2-online-section---choosing-a-local-model-for-your-hardware)
+  - [Practical model choices by hardware](#practical-model-choices-by-hardware)
+    - [16 GB system RAM, no dedicated GPU](#16-gb-system-ram-no-dedicated-gpu)
+    - [Laptop GPU with 8 GB VRAM](#laptop-gpu-with-8-gb-vram)
+    - [GPU with 16 GB VRAM](#gpu-with-16-gb-vram)
+    - [32 GB VRAM workstation GPU](#32-gb-vram-workstation-gpu)
+    - [64 GB to 96 GB unified memory Mac](#64-gb-to-96-gb-unified-memory-mac)
+    - [128 GB to 256 GB unified memory Mac or AI workstation](#128-gb-to-256-gb-unified-memory-mac-or-ai-workstation)
+  - [Setting expectations for the local versus cloud](#setting-expectations-for-the-local-versus-cloud)
 
 A local model is an AI model that runs on your own computer instead of on a cloud service. The advantage is privacy, offline use, predictable cost, and the freedom to experiment. The disadvantage is that your hardware matters a lot. A model that sounds small because it has 12 billion parameters can still need more than 16 GB of memory once you include precision, quantization, the runtime, and the context window.
 

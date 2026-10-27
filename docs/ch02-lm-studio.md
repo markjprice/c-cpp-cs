@@ -1,4 +1,4 @@
-# Running local models with LM Studio
+# Chapter 2 online section - Running local models with LM Studio
 
 With LM Studio, you can:
 - Run LLMs on your laptop, entirely offline

@@ -1,4 +1,11 @@
-# AI coding tool costs and capabilities
+# Chapter 2 online section - AI coding tool costs and capabilities
+
+- [Chapter 2 online section - AI coding tool costs and capabilities](#chapter-2-online-section---ai-coding-tool-costs-and-capabilities)
+  - [Token and quota burn](#token-and-quota-burn)
+  - [A practical approach to token usage](#a-practical-approach-to-token-usage)
+  - [Choosing between free and paid plans](#choosing-between-free-and-paid-plans)
+  - [Use expensive models sparingly](#use-expensive-models-sparingly)
+  - [Updating your AI budget as pricing changes](#updating-your-ai-budget-as-pricing-changes)
 
 By 2026, AI coding tools are no longer a novelty. They are useful, expensive, and annoying in ways that developers argue about constantly. Many developers now use AI tools weekly, and some teams use coding agents for larger tasks. 
 

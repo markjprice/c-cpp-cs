@@ -1,6 +1,6 @@
-# Good practices for efficient memory management
+# Chapter 4 online section - Good practices for efficient memory management
 
-- [Good practices for efficient memory management](#good-practices-for-efficient-memory-management)
+- [Chapter 4 online section - Good practices for efficient memory management](#chapter-4-online-section---good-practices-for-efficient-memory-management)
 - [Always initialize pointers](#always-initialize-pointers)
 - [Free memory as soon as it's no longer needed](#free-memory-as-soon-as-its-no-longer-needed)
 - [Avoid memory fragmentation](#avoid-memory-fragmentation)
@@ -12,7 +12,6 @@
   - [Isolate and simplify problems](#isolate-and-simplify-problems)
   - [Be consistent with patterns](#be-consistent-with-patterns)
 - [Key takeaway](#key-takeaway)
-
 
 Writing correct C code is one thing. Writing efficient and reliable C code is another. Memory management is where the difference shows most clearly. Poor habits lead to subtle bugs, crashes, and performance issues that are difficult to diagnose. Good habits make your programs predictable, stable, and easier to maintain.
 

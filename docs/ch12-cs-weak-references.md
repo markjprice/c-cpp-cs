@@ -1,6 +1,6 @@
-# Weak references and object handles
+# Chapter 12 online section - Weak references and object handles
 
-- [Weak references and object handles](#weak-references-and-object-handles)
+- [Chapter 12 online section - Weak references and object handles](#chapter-12-online-section---weak-references-and-object-handles)
 - [Strong references](#strong-references)
 - [Weak references](#weak-references)
 - [Weak references in cache-like scenarios](#weak-references-in-cache-like-scenarios)

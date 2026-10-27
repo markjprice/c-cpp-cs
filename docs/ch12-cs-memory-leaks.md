@@ -1,4 +1,16 @@
-# Avoiding memory leaks in managed code
+# Chapter 12 online section - Avoiding memory leaks in managed code
+
+- [Chapter 12 online section - Avoiding memory leaks in managed code](#chapter-12-online-section---avoiding-memory-leaks-in-managed-code)
+- [Long-lived references](#long-lived-references)
+- [Event subscriptions](#event-subscriptions)
+- [Timers and callbacks](#timers-and-callbacks)
+- [Captured variables and closures](#captured-variables-and-closures)
+- [Caches that never shrink](#caches-that-never-shrink)
+- [Undisposed resources](#undisposed-resources)
+- [Keeping too much object graph alive](#keeping-too-much-object-graph-alive)
+- [Designing clear ownership and lifetime](#designing-clear-ownership-and-lifetime)
+- [Recognizing memory leaks](#recognizing-memory-leaks)
+- [Reducing the risk of managed leaks](#reducing-the-risk-of-managed-leaks)
 
 C# has garbage collection, but C# programs can still leak memory. The leak usually does not happen because memory is unreachable and the runtime fails to reclaim it. The leak happens because memory is still reachable when you did not intend it to be.
 

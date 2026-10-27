@@ -1,6 +1,6 @@
-# Good practices for writing clean C#
+# Chapter 9 online section - Good practices for writing clean C#
 
-- [Good practices for writing clean C#](#good-practices-for-writing-clean-c)
+- [Chapter 9 online section - Good practices for writing clean C#](#chapter-9-online-section---good-practices-for-writing-clean-c)
 - [Prefer clarity over cleverness](#prefer-clarity-over-cleverness)
 - [Use meaningful names](#use-meaningful-names)
 - [Avoid deeply nested code](#avoid-deeply-nested-code)

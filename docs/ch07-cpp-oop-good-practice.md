@@ -1,6 +1,6 @@
-# Good practices for object-oriented design in C++
+# Chapter 7 online section - Good practices for object-oriented design in C++
 
-- [Good practices for object-oriented design in C++](#good-practices-for-object-oriented-design-in-c)
+- [Chapter 7 online section - Good practices for object-oriented design in C++](#chapter-7-online-section---good-practices-for-object-oriented-design-in-c)
 - [Keep classes focused and cohesive](#keep-classes-focused-and-cohesive)
 - [Prefer composition over inheritance](#prefer-composition-over-inheritance)
 - [Design clear and minimal interfaces](#design-clear-and-minimal-interfaces)
@@ -10,7 +10,6 @@
 - [Limit the use of advanced features](#limit-the-use-of-advanced-features)
 - [Write for maintainability, not just correctness](#write-for-maintainability-not-just-correctness)
 - [Test and refine your design](#test-and-refine-your-design)
-
 
 By this point, you have seen the core building blocks of object-oriented programming in C++: classes, encapsulation, inheritance, polymorphism, and object lifetime. The challenge now is not learning new syntax but using these tools in a way that leads to clear, maintainable, and reliable code.
 

@@ -1,4 +1,13 @@
-# Configure a free local LLM with Ollama 
+# Chapter 2 online section - Configure a free local LLM with Ollama 
+
+- [Chapter 2 online section - Configure a free local LLM with Ollama](#chapter-2-online-section---configure-a-free-local-llm-with-ollama)
+  - [Understanding Ollama](#understanding-ollama)
+  - [Ollama models](#ollama-models)
+  - [Model size](#model-size)
+  - [What is quantization?](#what-is-quantization)
+  - [Downloading and running Ollama models](#downloading-and-running-ollama-models)
+  - [Ollama CLI](#ollama-cli)
+  - [Integrating Ollama with VS Code](#integrating-ollama-with-vs-code)
 
 This section is for readers who want to avoid API costs and keep prompts and responses local. In practice, you still sign into GitHub to use Copilot in VS Code, but you can run the model inference locally through Ollama for supported chat experiences. 
 

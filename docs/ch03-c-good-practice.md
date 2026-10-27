@@ -1,11 +1,10 @@
-# Good practices for C syntax
+# Chapter 3 online section - Good practices for C syntax
 
-- [Good practices for C syntax](#good-practices-for-c-syntax)
+- [Chapter 3 online section - Good practices for C syntax](#chapter-3-online-section---good-practices-for-c-syntax)
 - [Proper indentation and readability](#proper-indentation-and-readability)
 - [Naming conventions for variables and functions](#naming-conventions-for-variables-and-functions)
 - [Avoiding common syntax errors](#avoiding-common-syntax-errors)
 - [Takeaways](#takeaways)
-
 
 C gives you a lot of freedom. That is both a strength and a trap. The compiler will accept code that is technically valid but nearly impossible to read or maintain.
 

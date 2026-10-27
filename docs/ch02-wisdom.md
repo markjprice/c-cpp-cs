@@ -1,4 +1,12 @@
-# Intelligence versus wisdom
+# Chapter 2 online section - Intelligence versus wisdom
+
+- [Chapter 2 online section - Intelligence versus wisdom](#chapter-2-online-section---intelligence-versus-wisdom)
+  - [What AI is actually good at](#what-ai-is-actually-good-at)
+  - [Where AI falls short](#where-ai-falls-short)
+  - [The human role is changing](#the-human-role-is-changing)
+  - [A practical way to think about it](#a-practical-way-to-think-about-it)
+  - [The cost of skipping wisdom](#the-cost-of-skipping-wisdom)
+  - [Intelligence is not enough](#intelligence-is-not-enough)
 
 It’s easy to confuse intelligence with wisdom, especially when working with AI tools.
 

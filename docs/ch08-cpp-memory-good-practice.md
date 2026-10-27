@@ -1,6 +1,6 @@
-# Good practices for efficient memory management
+# Chapter 8 online section - Good practices for efficient memory management
 
-- [Good practices for efficient memory management](#good-practices-for-efficient-memory-management)
+- [Chapter 8 online section - Good practices for efficient memory management](#chapter-8-online-section---good-practices-for-efficient-memory-management)
 - [Prefer stack allocation whenever possible](#prefer-stack-allocation-whenever-possible)
 - [Minimize heap allocations](#minimize-heap-allocations)
 - [Prefer standard library containers and types](#prefer-standard-library-containers-and-types)
@@ -10,7 +10,6 @@
 - [Avoid premature optimization](#avoid-premature-optimization)
 - [When advanced techniques make sense](#when-advanced-techniques-make-sense)
 - [The big picture](#the-big-picture)
-
 
 In this online-only section, you will look at good practices for efficient memory management, focusing on how to write modern C++ code that is safer, simpler, and less prone to errors from the start.
 

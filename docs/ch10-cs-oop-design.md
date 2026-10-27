@@ -1,6 +1,6 @@
-# Designing maintainable object-oriented systems
+# Chapter 10 online section - Designing maintainable object-oriented systems
 
-- [Designing maintainable object-oriented systems](#designing-maintainable-object-oriented-systems)
+- [Chapter 10 online section - Designing maintainable object-oriented systems](#chapter-10-online-section---designing-maintainable-object-oriented-systems)
 - [Favor composition over excessive inheritance](#favor-composition-over-excessive-inheritance)
 - [Keep classes focused](#keep-classes-focused)
 - [Design clear abstractions](#design-clear-abstractions)

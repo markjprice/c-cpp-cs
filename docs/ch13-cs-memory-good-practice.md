@@ -1,4 +1,6 @@
-- [Good practices for efficient memory usage](#good-practices-for-efficient-memory-usage)
+# Chapter 13 online section - Good practices for efficient memory usage
+
+- [Chapter 13 online section - Good practices for efficient memory usage](#chapter-13-online-section---good-practices-for-efficient-memory-usage)
 - [Prefer clear code first](#prefer-clear-code-first)
 - [Design clear object lifetimes](#design-clear-object-lifetimes)
 - [Dispose what you own](#dispose-what-you-own)
@@ -12,9 +14,6 @@
 - [Use spans and memory types where they fit naturally](#use-spans-and-memory-types-where-they-fit-naturally)
 - [Avoid calling GC.Collect() in normal application code](#avoid-calling-gccollect-in-normal-application-code)
 - [Measure before and after changes](#measure-before-and-after-changes)
-
-
-# Good practices for efficient memory usage
 
 *Chapter 13* focused on allocation-aware C#: spans, memory buffers, pooling, unsafe code, diagnostics, and practical habits for measuring before optimizing. *Chapter 12* covered managed memory, garbage collection, disposal, and managed-memory leaks. The most important question is what you should do differently when writing C#.
 

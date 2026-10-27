@@ -1,4 +1,15 @@
-# Creating, compiling, and running a C project
+# Chapter 3 online section - Creating, compiling, and running a C project
+
+- [Chapter 3 online section - Creating, compiling, and running a C project](#chapter-3-online-section---creating-compiling-and-running-a-c-project)
+  - [Creating a project folder](#creating-a-project-folder)
+  - [Opening the folder in VS Code](#opening-the-folder-in-vs-code)
+  - [Opening the integrated terminal](#opening-the-integrated-terminal)
+  - [Compiling with GCC](#compiling-with-gcc)
+  - [Compiling with Clang](#compiling-with-clang)
+  - [Compiling with MSVC](#compiling-with-msvc)
+  - [Using VS Code build tasks](#using-vs-code-build-tasks)
+  - [Compiling projects with multiple source files](#compiling-projects-with-multiple-source-files)
+  - [Downloading the complete code examples](#downloading-the-complete-code-examples)
 
 Before you write larger examples, it is worth slowing down and making sure you know how to create a real C project folder, open it in VS Code, compile it with a command-line compiler, and run it.
 

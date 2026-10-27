@@ -1,4 +1,10 @@
-# Why the model file size is not the memory requirement
+# Chapter 2 online section - Why the model file size is not the memory requirement
+
+- [Chapter 2 online section - Why the model file size is not the memory requirement](#chapter-2-online-section---why-the-model-file-size-is-not-the-memory-requirement)
+  - [The context window and the KV cache](#the-context-window-and-the-kv-cache)
+  - [Why coding agents need more memory than chat](#why-coding-agents-need-more-memory-than-chat)
+  - [Practical rules of thumb](#practical-rules-of-thumb)
+  - [A reader-friendly appraisal checklist](#a-reader-friendly-appraisal-checklist)
 
 A model’s parameter count tells you how many learned numbers it contains. The raw memory for those numbers is roughly: `parameters × bytes per parameter`.
 

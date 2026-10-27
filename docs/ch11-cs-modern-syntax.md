@@ -1,6 +1,6 @@
-# Modern syntax enhancements
+# Chapter 11 online section - Modern syntax enhancements
 
-- [Modern syntax enhancements](#modern-syntax-enhancements)
+- [Chapter 11 online section - Modern syntax enhancements](#chapter-11-online-section---modern-syntax-enhancements)
 - [Target-typed new](#target-typed-new)
 - [Collection expressions](#collection-expressions)
 - [Primary constructors](#primary-constructors)
@@ -10,7 +10,6 @@
 - [Required members](#required-members)
 - [Modern syntax versus readability](#modern-syntax-versus-readability)
 - [Getting an AI to write modern C#](#getting-an-ai-to-write-modern-c)
-
 
 This online-only section explores modern syntax enhancements and how they make contemporary C# code more concise and expressive.
 
