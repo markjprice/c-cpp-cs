@@ -1,6 +1,6 @@
-# Chapter 18 online section - Testing game logic separately from the UI
+# Appendix B online section - Testing game logic separately from the UI
 
-- [Chapter 18 online section - Testing game logic separately from the UI](#chapter-18-online-section---testing-game-logic-separately-from-the-ui)
+- [Appendix B online section - Testing game logic separately from the UI](#appendix-b-online-section---testing-game-logic-separately-from-the-ui)
 - [What to test](#what-to-test)
 - [Creating a test project](#creating-a-test-project)
 - [Testing Word Guess rules](#testing-word-guess-rules)
