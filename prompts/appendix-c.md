@@ -1,4 +1,4 @@
-**Prompts for *Chapter 20 Improving a Unity Game with AI Assistance***
+**Prompts for *Appendix C Improving a Unity Game with AI Assistance***
 
 - [Using AI after the game already works](#using-ai-after-the-game-already-works)
 - [Choosing a low-cost AI workflow](#choosing-a-low-cost-ai-workflow)

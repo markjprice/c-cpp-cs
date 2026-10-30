@@ -1,4 +1,4 @@
-**Prompts for *Chapter 18 AI-Assisted Variations, Testing, and Review***
+**Prompts for *Appendix B AI-Assisted Variations, Testing, and Review***
 
 - [Using AI to generate safe game variations](#using-ai-to-generate-safe-game-variations)
 - [Testing game logic separately from the UI](#testing-game-logic-separately-from-the-ui)
