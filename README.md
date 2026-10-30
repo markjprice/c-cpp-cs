@@ -15,7 +15,7 @@ Repository for the Packt Publishing book titled *C, C++, and C# Programming for 
   - [Part 3: C++ – Improving Abstraction, Safety, and Power](#part-3-c--improving-abstraction-safety-and-power)
   - [Part 4: C# – Modernizing Productivity and Managed Memory](#part-4-c--modernizing-productivity-and-managed-memory)
   - [Part 5: Blazor and Unity - Building Games with C#](#part-5-blazor-and-unity---building-games-with-c)
-  - [Epilogue and Appendix](#epilogue-and-appendix)
+  - [Appendices](#appendices)
 - [Online content](#online-content)
 - [Book Cover](#book-cover)
 
@@ -62,15 +62,15 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 - Chapter 15, Building the Puzzle Arcade Shell: [code/Chapter15](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter15)
 - Chapter 16, Building Word Guess and Number Logic: [code/Chapter16](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter16)
 - Chapter 17, Modeling Boards and Tile Actions: [code/Chapter17](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter17)
-- Chapter 18, AI-Assisted Variations, Testing, and Review: [code/Chapter18](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter18)
 - Chapter 19, Hand-Crafting a 3D Game in Unity: [code/Chapter19](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter19)
-- Chapter 20, Improving a Unity Game with AI Assistance: [code/Chapter20](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter20)
 
-## Epilogue and Appendix
+## Appendices
 
-**Appendix**
-- [*Appendix, Answers to the Test Your Knowledge Questions*](docs/B33445_Appendix%20A.pdf)
-- Appendices are included with your purchase. Visit https://packtpub.com/unlock, then use the search bar to find this book by name. Double-check the edition shown to make sure you get the right one.
+- [*Appendix A, Answers to the Test Your Knowledge Questions*](docs/B33445_Appendix%20A.pdf)
+- [*Appendix B, AI-Assisted Variations, Testing, and Review*](docs/B33445_Appendix%20B.pdf)
+- [*Appendix C, Improving a Unity Game with AI Assistance*](docs/B33445_Appendix%20C.pdf)
+
+Appendices are included with your purchase. Visit https://packtpub.com/unlock, then use the search bar to find this book by name. Double-check the edition shown to make sure you get the right one.
 
 # Online content
 
