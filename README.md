@@ -66,9 +66,9 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 
 ## Appendices
 
-- [*Appendix A, Answers to the Test Your Knowledge Questions*](docs/B33445_Appendix%20A.pdf)
-- [*Appendix B, AI-Assisted Variations, Testing, and Review*](docs/B33445_Appendix%20B.pdf)
-- [*Appendix C, Improving a Unity Game with AI Assistance*](docs/B33445_Appendix%20C.pdf)
+- [*Appendix A, Answers to the Test Your Knowledge Questions*](docs/Appendix-A.pdf)
+- [*Appendix B, AI-Assisted Variations, Testing, and Review*](docs/Appendix-B.pdf)
+- [*Appendix C, Improving a Unity Game with AI Assistance*](docs/Appendix-C.pdf)
 
 Appendices are included with your purchase. Visit https://packtpub.com/unlock, then use the search bar to find this book by name. Double-check the edition shown to make sure you get the right one.
 
