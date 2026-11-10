@@ -37,21 +37,21 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 # Chapters and code projects
 
 ## Part 1: Introduction
-- Chapter 1, Introducing C, C++, and C#: [code/Chapter1](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter01)
+- Chapter 1, Introducing C, C++, and C#: [code/Chapter01](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter01)
 - Chapter 2, Learning and Coding with AI
 
 ## Part 2: C – Language Foundations and Manual Memory Management
-- Chapter 3, C Fundamentals: [code/Chapter3](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter03)
-- Chapter 4, C Memory Management: [code/Chapter4](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter04)
-- Chapter 5, C Limitations: [code/Chapter5](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter05)
+- Chapter 3, C Fundamentals: [code/Chapter03](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter03)
+- Chapter 4, C Memory Management: [code/Chapter04](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter04)
+- Chapter 5, C Limitations: [code/Chapter05](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter05)
 
 ## Part 3: C++ – Improving Abstraction, Safety, and Power
-- Chapter 6, C++ Fundamentals: [code/Chapter6](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter06)
-- Chapter 7, C++ Object-Oriented Programming: [code/Chapter7](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter07)
-- Chapter 8, C++ Memory Management: [code/Chapter8](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter08)
+- Chapter 6, C++ Fundamentals: [code/Chapter06](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter06)
+- Chapter 7, C++ Object-Oriented Programming: [code/Chapter07](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter07)
+- Chapter 8, C++ Memory Management: [code/Chapter08](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter08)
 
 ## Part 4: C# – Modernizing Productivity and Managed Memory
-- Chapter 9, C# Fundamentals: [code/Chapter9](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter09)
+- Chapter 9, C# Fundamentals: [code/Chapter09](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter09)
 - Chapter 10, C# Object-Oriented Programming: [code/Chapter10](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter10)
 - Chapter 11, C# Modern Programming: [code/Chapter11](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter11)
 - Chapter 12, C# Memory Management and Resource Lifetime: [code/Chapter12](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter12)
@@ -67,8 +67,8 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 ## Appendices
 
 - [*Appendix A, Answers to the Test Your Knowledge Questions*](docs/Appendix-A.pdf)
-- [*Appendix B, AI-Assisted Variations, Testing, and Review*](docs/Appendix-B.pdf)
-- [*Appendix C, Improving a Unity Game with AI Assistance*](docs/Appendix-C.pdf)
+- [*Appendix B, AI-Assisted Variations, Testing, and Review*](docs/Appendix-B.pdf) [code/AppendixB](https://github.com/markjprice/c-cpp-cs/tree/main/code/AppendixB/)
+- [*Appendix C, Improving a Unity Game with AI Assistance*](docs/Appendix-C.pdf) [code/AppendixC](https://github.com/markjprice/c-cpp-cs/tree/main/code/AppendixC/)
 
 Appendices are included with your purchase. Visit https://packtpub.com/unlock, then use the search bar to find this book by name. Double-check the edition shown to make sure you get the right one.
 
