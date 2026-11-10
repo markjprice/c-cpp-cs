@@ -75,7 +75,7 @@ Appendices are included with your purchase. Visit https://packtpub.com/unlock, t
 # Online content
 
 - [Common Mistakes, Improvements, and Errata aka list of corrections](docs/errata/README.md)
-- [Command-Lines](docs/command-lines.md) page lists all commands as a single line that can be copied and pasted to make it easier to enter commands at the prompt.
+- [Command-Lines](docs/commandlines.md) page lists all commands as a single line that can be copied and pasted to make it easier to enter commands at the prompt.
 - [Prompts](prompts/readme.md)
 - [Book Links](docs/book-links.md)
 
