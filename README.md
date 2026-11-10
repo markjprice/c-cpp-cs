@@ -62,7 +62,7 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 - Chapter 15, Building the Puzzle Arcade Shell: [code/Chapter15](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter15)
 - Chapter 16, Building Word Guess and Number Logic: [code/Chapter16](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter16)
 - Chapter 17, Modeling Boards and Tile Actions: [code/Chapter17](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter17)
-- Chapter 19, Hand-Crafting a 3D Game in Unity: [code/Chapter19](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter19)
+- Chapter 18, Hand-Crafting a 3D Game in Unity: [code/Chapter18](https://github.com/markjprice/c-cpp-cs/tree/main/code/Chapter18)
 
 ## Appendices
 
