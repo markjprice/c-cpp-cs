@@ -45,7 +45,7 @@ I should make sure to explain that "Why is Gamora?" isn't a widely recognized li
 ![What was the model thinking?](assets/B33445_02_06.png)
 *Figure 2.6: What was the model thinking?*
 
-11.	Now, if I ask the same question to ChatGPT-5.2, I get a much better response:
+11.	Now, if I ask the same question to ChatGPT, I get a much better response:
 ```
 The line "Why is Gamora?" is said by Drax, a character from the movie Avengers: Infinity War. This moment occurs during a scene where the Avengers confront the Guardians of the Galaxy for the first time. [cont.]
 ```

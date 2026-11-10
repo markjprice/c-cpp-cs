@@ -4,7 +4,7 @@
 - [Chapter 2 Learning and Coding with AI](ch02.md)
 - [Chapter 3 C Fundamentals](ch03.md)
 - [Chapter 4 C Memory Management](ch04.md)
-- [Chapter 5 The Limits of C](ch05.md)
+- [Chapter 5 C Limitations](ch05.md)
 - [Chapter 6 C++ Fundamentals](ch06.md)
 - [Chapter 7 C++ Object-Oriented Programming](ch07.md)
 - [Chapter 8 C++ Memory Management](ch08.md)

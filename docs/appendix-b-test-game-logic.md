@@ -142,18 +142,18 @@ Assert.IsType<Won>(updated.State.Value);
 
 C# 15 union values expose the underlying case value through `Value`. That lets a test check which case is currently stored. In ordinary application code, pattern matching is usually nicer. In tests, directly checking the case type can make the assertion clear.
 
-If your generated union type exposes the underlying value differently in the SDK version you are using, adjust the assertion to match the final C# 15 implementation. For example, you could use pattern matching instead:
+You could also use pattern matching instead:
 ```cs
 Assert.True(updated.State is Won);
 ```
 
-Run the two tests either using Visual Studio by navigating to **Test** | **Run All Tests**, as shown in *Figure 18.1*, or at the terminal or command prompt with the following command:
+Run the two tests either using Visual Studio by navigating to **Test** | **Run All Tests**, as shown in *Figure B.1*, or at the terminal or command prompt with the following command:
 ```shell
-dotnet test PuzzleArcadeSolution.sln
+dotnet test AppendixB.sln
 ```
 
-![]()
-*Figure 18.1: Running tests in Visual Studio*
+![Running tests in Visual Studio](assets/B33445_18_01.png)
+*Figure B.1: Running tests in Visual Studio*
 
 # Testing Number Logic clues
 
@@ -313,13 +313,13 @@ These tests check the rule class. The first test confirms that selecting a tile 
 
 # Running the tests
 
-Run all tests, as shown in *Figure 18.2*:
+Run all tests, as shown in *Figure B.2*:
 ```shell
-dotnet test PuzzleArcadeSolution.sln
+dotnet test AppendixB.sln
 ```
 
-![]()
-*Figure 18.2: Running all the game tests*
+![Running all the game tests](assets/B33445_18_02.png)
+*Figure B.2: Running all the game tests*
 
 The output should show that the test project built and the tests passed. The exact output will vary by SDK and test runner version, but a successful run should report no failed tests.
 

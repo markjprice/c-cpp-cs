@@ -12,20 +12,6 @@ The projects target `net11.0` because the chapter is written for .NET 11 and C# 
 dotnet --version
 ```
 
-If you are using .NET 10 while experimenting before .NET 11 is available, most projects can be changed from:
-
-```xml
-<TargetFramework>net11.0</TargetFramework>
-```
-
-to:
-
-```xml
-<TargetFramework>net10.0</TargetFramework>
-```
-
-The exception is the union-type project, which uses the proposed C# 15 `union` keyword and requires a compiler that supports that feature.
-
 ## Build and run
 
 Move into a project folder and run:

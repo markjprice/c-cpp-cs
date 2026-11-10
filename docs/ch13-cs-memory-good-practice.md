@@ -609,4 +609,4 @@ Memory-aware C# is not about rejecting the garbage collector. It is about unders
 
 These habits complete the memory-management journey from C to C++ to C#. In C, you controlled memory directly. In C++, you used language features and RAII to make ownership safer. In C#, the runtime manages most memory cleanup for you, but you still design lifetimes, release resources, control allocation pressure, and verify behavior with diagnostics.
 
-In *Chapter 14*, you will apply C# in a different context: building games with Unity. Games make memory behavior visible because allocation, pauses, assets, object lifetimes, and frame rates are tightly connected. The memory habits from *Chapter 13* will help you write Unity code that is not only correct, but smooth and responsive.
+In *Chapter 18*, you will apply C# in a different context: building games with Unity. Games make memory behavior visible because allocation, pauses, assets, object lifetimes, and frame rates are tightly connected. The memory habits from *Chapter 13* will help you write Unity code that is not only correct, but smooth and responsive.

@@ -1,6 +1,6 @@
 # Chapter 12: C# Memory Management and Resource Lifetime
 
-This folder contains complete runnable projects for Chapter 12 of **C, C++, C# with an AI Sidekick**.
+This folder contains complete runnable projects for Chapter 12 of **C, C++, and C# Programming for Beginners**.
 
 Each project is intentionally small. The goal is to let readers build and run the examples without copying fragments out of the chapter.
 

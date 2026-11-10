@@ -1,6 +1,6 @@
 # Errata and Improvements
 
-If you find any mistakes in the first edition, *C, C++, and C# with an AI Sidekick*, or if you have suggestions for improvements, then please [raise an issue in this repository](https://github.com/markjprice/c-cpp-cs/issues) or email me at markjprice (at) gmail.com.
+If you find any mistakes in the first edition, *C, C++, and C# Programming for Beginners*, or if you have suggestions for improvements, then please [raise an issue in this repository](https://github.com/markjprice/c-cpp-cs/issues) or email me at markjprice (at) gmail.com.
 
 > **Warning!** You must be signed in to your GitHub account to enable the **New issue** button, otherwise it will mislead you by saying *Issue creation is restricted in this repository*. All signed in GitHub users are allowed to create issues in my public repositories.
 

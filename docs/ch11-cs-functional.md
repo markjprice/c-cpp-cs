@@ -379,4 +379,4 @@ Functional programming has influenced nearly every area of modern C#, from LINQ 
 
 > **Prompt**: Please explain functional programming concepts for an object-oriented C# developer.
 
-The [next section](ch11-cpp-performance.md) explores where modern C# features can create hidden allocations, deferred execution issues, and other performance concerns that developers should understand when building large or high-performance applications.
+The [next section](ch11-cs-performance.md) explores where modern C# features can create hidden allocations, deferred execution issues, and other performance concerns that developers should understand when building large or high-performance applications.
