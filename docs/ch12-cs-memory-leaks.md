@@ -557,7 +557,7 @@ For example, open and close the same window 50 times. Run the same import job 20
 
 If memory grows at first and then stabilizes, that might be normal. The runtime, libraries, JIT compiler, caches, and connection pools may warm up. If memory grows steadily without stabilizing, investigate further.
 
-Do not rely only on **Task Manager** or a single memory number. Managed memory, private bytes, working set, native memory, and committed memory are related but not identical. In *Chapter 13, x*, , you will learn about diagnostic tools that can show object counts, allocation stacks, GC behavior, and memory dumps.
+Do not rely only on **Task Manager** or a single memory number. Managed memory, private bytes, working set, native memory, and committed memory are related but not identical. In *Chapter 13, C# High-Performance Memory and Diagnostics*, you will learn about diagnostic tools that can show object counts, allocation stacks, GC behavior, and memory dumps.
 Good practice: Recognize suspicious patterns. Repeated operation + memory keeps growing + objects remain reachable = likely managed leak.
 
 Once you suspect a leak, start with the common causes from this section: static collections, event subscriptions, timers, closures, caches, undisposed resources, and unexpectedly large object graphs.
